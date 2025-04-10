@@ -1,0 +1,39 @@
+.sidebar {
+    background-color: #005377;
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%;
+  }
+  
+  .sidebar li:hover {
+    background-color: #00729c;
+  }
+  
+  .sidebar li:active {
+    background-color: #0086b3;
+  }
+  
