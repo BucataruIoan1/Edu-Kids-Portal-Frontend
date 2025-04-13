@@ -1,0 +1,27 @@
+.calendar-wrapper {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  .rs-calendar {
+    border-radius: 12px;
+  }
+  
+  .weekend-day {
+    background-color: #ffeaea !important;
+  }
+  
+  .rs-calendar-table-cell-content {
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rs-calendar-table-cell-content:hover {
+    background-color: #e0f0ff;
+    cursor: pointer;
+  }
+  

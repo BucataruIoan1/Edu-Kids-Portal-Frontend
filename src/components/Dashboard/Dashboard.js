@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
+import MainPage from '../MainPage/MainPage';
 import './Dashboard.css';
 
 const Dashboard = () => {
@@ -15,7 +16,7 @@ const Dashboard = () => {
                     <Sidebar />
                 </div>
                 <div className='main-page-component'>
-                    
+                    <MainPage />
                 </div>
             </div>
         </div>
