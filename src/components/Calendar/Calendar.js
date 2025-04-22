@@ -76,7 +76,7 @@ const CustomCalendar = () => {
   };
 
   return (
-    <div className="max-w-xl bg-white p-6 rounded-2xl shadow-lg">
+    <div className="max-w-xl bg-white p-6 rounded-2xl shadow-lg border border-gray-200">
       <div className="flex justify-between items-center mb-4">
         <button 
           onClick={prevYear}
