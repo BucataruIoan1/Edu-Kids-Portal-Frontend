@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const CustomCalendar = () => {
   const [selectedDate, setSelectedDate] = useState(null);
-  const [currentDate, setCurrentDate] = useState(new Date()); // Adăugăm starea pentru data curentă afișată
+  const [currentDate, setCurrentDate] = useState(new Date());
 
   const year = currentDate.getFullYear();
   const month = currentDate.getMonth();
@@ -16,7 +16,6 @@ const CustomCalendar = () => {
     setSelectedDate(new Date(year, month, day));
   };
 
-  // Funcții pentru navigare
   const prevMonth = () => {
     setCurrentDate(new Date(year, month - 1, 1));
     setSelectedDate(null);
